@@ -1,0 +1,7 @@
+Sale ID,Customer Name,Amount,Sale Date,City,Channel
+1,Ivan Petrov,1000,2026-01-10,Moscow,web
+2,Anna Sidorova,2500,2026/01/11,Kazan,store
+3,Olga Ivanova,,2026-01-11,SPB,web
+4,Ivan Petrov,3000,11-01-2026,moscow,marketplace
+5,Petr Smirnov,1750,2026-01-12,KAZAN,web
+6,Marina Volkova,900,2026-01-12,Perm,store

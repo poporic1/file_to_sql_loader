@@ -1,0 +1,7 @@
+column_name,data_type,row_count,null_count,distinct_count,min_value,max_value,avg_value
+sale_id,INTEGER,6,0,6,1.0,6.0,3.5
+customer_name,VARCHAR,6,0,5,,,
+amount,DOUBLE,6,1,5,900.0,3000.0,1830.0
+sale_date,DATE,6,0,3,,,
+city,VARCHAR,6,0,4,,,
+channel,VARCHAR,6,0,3,,,

@@ -1,0 +1,6 @@
+File-to-SQL Loader summary
+Raw table: sales_raw
+Clean table: sales_clean
+Row count: 6
+Profile report: output/profile_report.csv
+Parquet file: output/sales_clean.parquet
