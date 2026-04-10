@@ -56,10 +56,28 @@ file_to_sql_loader/
 │   ├── export_parquet.py
 │   └── main.py
 │
-├── requirements.txt
 └── README.md
 ```
-
+- data/  
+Содержит исходные CSV-файлы
+-db/  
+Файл базы данных DuckDB:
+   - sales_raw — исходные данные
+   - sales_clean — очищенные данные
+- output/  
+Результаты работы скрипта:
+   - profile_report.csv — profiling таблицы
+   - sales_clean.parquet — очищенные данные в формате Parquet
+   - summary.txt — краткая сводка выполнения
+- src/  
+Основная логика проекта:
+   - load_raw.py — загрузка CSV в raw-таблицу
+   - inspect_table.py — первичный анализ структуры таблицы
+   - clean_columns.py — очистка и приведение названий колонок
+   - build_clean_table.py — создание clean-таблицы с преобразованиями
+   - profile_table.py — расчет статистики по таблице
+   - export_parquet.py — экспорт данных в Parquet
+   - main.py — точка входа
 ---
 
 ## Установка и запуск
